@@ -1,0 +1,66 @@
+/* TaskList.css */
+
+.task-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end; /* Mengatur tombol ke sebelah kanan */
+    margin-bottom: 20px; /* Memberikan jarak di bawah tombol */
+}
+
+.task-item {
+    flex: 1;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.label {
+    font-size: 12px;
+    color: #666;
+    font-weight: bold;
+}
+
+.task-name {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.priority {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.status-badge .badge {
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 12px;
+}
+
+.progress-icon {
+    font-size: 18px;
+    color: #666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.actions button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 8px;
+}
+
+.card {
+    border: none;
+    background-color: #f9f9f9;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
